@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <meta chatset="utf-8"/>
+        <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0"/>
+        <title>Google Clone</title>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap">
+		<link rel="stylesheet" type="text/css" href="style.css"/>
+    </head>
+    <body>
+        <header class="header">
+            <ul class="header__list">
+                <li class="header__list-item"><a href="#" class="header__link">Gmail</a></li>
+                <li class="header__list-item"><a href="#" class="header__link">Imágenes</a></li>
+                <li class="header__list-item"><a href="#" class="header__link apps-button"><img src="/img/app.png" alt="Aplicaciones de Google"/></a></li>
+                <li class="header__list-item"><a href="#" class="header__link perfil_img"><img src="/img/cv.png" alt=""></a></li>
+            </ul>
+        </header>
+        <main class="main">
+			<section class="logo-container">
+				<img class="logo-img" src="/img/google_logo.svg" alt="Google"/>
+			</section>
+			<section class="search-bar">
+				<div class="search-bar__text-container">
+					<img src="/img/icon_search.svg"/>
+					<input class="search-bar__text-input" type="text" id="input_search"/>
+				</div>
+				<div class="search-bar__buttons-container">
+					<input class="btn-search" id="search" type="submit" value="Buscar con Google"/>
+					<input class="btn-search" id="lucky" type="submit" value="Voy a tener suerte"/>
+				</div>
+			</section>
+		</main>
+        <footer class="footer">
+            <section class="footer__section country-section">
+                <span class="footer-link">Colombia</span>
+            </section>
+            <nav class="footer__section footer_spaced-items">
+                <ul class="footer__list">
+                    <li class="footer__list-item"><a class="footer-link" href="#">Sobre Google</a></li>
+                    <li class="footer__list-item"><a class="footer-link" href="#">Publicidad</a></li>
+                    <li class="footer__list-item"><a class="footer-link" href="#">Negocios</a></li>
+                    <li class="footer__list-item"><a class="footer-link" href="#">Cómo funciona la búsqueda</a></li>
+                </ul>
+                <ul class="footer__list">
+                    <li class="footer__list-item"><a class="footer-link" href="#">Privacidad</a></li>
+                    <li class="footer__list-item"><a class="footer-link" href="#">Condiciones</a></li>
+                    <li class="footer__list-item no-margin-right"><a class="footer-link" href="#">Preferencias</a></li>
+                </ul>
+            </nav>
+        </footer>
+    </body>
+</html>
